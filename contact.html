@@ -12,28 +12,34 @@
             <div class="hdr" id="head_name">
                 <h1 >Sanja Höbenreich - Full Stack Web Developer</h1>
             </div>
-            <div class="hdr" id="cf_logo">
-                <img src=".\img\logo.png" alt="CodeFactory Logo" style="height: 100px; width:auto">
+            <div class="logo_sp">
+                <img id="logo" src=".\img\logo.png" alt="CodeFactory Logo">
             </div>
         </div>
     </header>
     <div class="nav">
-        <ul>
+        <div class="empty"></div>
+        <div class="links">
+            <ul>
             <li><a href=".\code_review.html">Home</a></li>
             <li><a href=".\blog.html">Blog</a></li>
             <li><a href=".\about_me.html" id="nospacing">About Me</a></li>
             <li><a href=".\contact.html">Contact</a></li>
-        </ul>
+            </ul>
+        </div>
     </div>
-    <article>
-        <h1>Come talk to us!</h1>
-        <p style="text-align: left; margin-left: 100px;"><label>Subject: </label><input type="text" name="subject"></p>
-        <p style="text-align: left; margin-left: 100px;"><textarea rows="10" cols="70" name="message">What's on your mind?</textarea>
-        <p style="text-align: left; margin-left: 100px;"><label>Enter your email adress: </label><input type="email" name="mail"></p>
-        <p style="text-align: left; margin-left: 100px;"><label>Enter your full name: </label><input type="text" name="name"></p>
-        <p style="text-align: left; margin-left: 100px;"><input type="submit" value="Send"></p>
-        <p style="text-align: left; margin-left: 100px;"></p>
-    </article>
+    <div class="main">
+        <div class="heading">
+            <h1>Come talk to us!</h1>
+        </div>
+        <div class="form">
+            <div><label>Subject: </label><input type="text" name="subject"></div>
+            <div><textarea rows="10" cols="70" name="message">What's on your mind?</textarea></div>
+            <div><label>Enter your email adress: </label><input type="email" name="mail"></div>
+            <div><label>Enter your full name: </label><input type="text" name="name"></div>
+            <div><input type="submit" value="Send"></div>
+        </div>
+    </div>
     <footer>
         <img src=".\img\logo.png" alt="CodeFactory Logo" style="height: 100px; width:auto">
         <p>&copy Sanja Höbenreich - CodeFactory 2020</p>

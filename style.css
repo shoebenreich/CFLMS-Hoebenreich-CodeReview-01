@@ -1,50 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
 
 body {
-    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+
+    font-family: 'Balsamiq Sans', cursive;
 }
 
-#flex {
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #f08e8e;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #c2a4a4;
-    font-family: 'Balsamiq Sans', cursive;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
-#head_name {
+.hdr {
     margin-left: 5%;
+    font-size: 1rem;
 }
 
-#cf_logo {
+.logo_sp {
     margin-right: 5%;
 }
 
-#nospacing {
-    word-spacing: 0.1rem;
-}
 .nav {
-    background-color: #fa3131;
-    font-size: 24px;
-    margin-right: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.nav ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    list-style-type: none;
+    height: 4rem;
+    width: 100%;
     display: flex;
-    margin-left: 75%;
+    justify-content: space-between;
+    background-color: #ca3d3d;
 }
-.nav ul li a {
-    display: inline;
-    justify-content: space-evenly;
-    margin-right: 0;
-    margin-left: 0.5rem;
 
+.links{
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
+
+.links ul {
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    min-width: 350px;
+    list-style-type: none;
+}
+
+li { 
+    display: inline;
+    margin-right: 1%;
 }
 
 a {
@@ -62,60 +69,101 @@ a:hover {
     color: #720e0e;
 }
 
-article h1 {
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 1rem;
+.main {
+    width: 100%;
+    height: 100%;
 }
 
-h2 {
-    margin-top: 1rem;
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 2rem;
+.heading {
+    margin-left: 35%;
+    margin-right: 35%;
     text-align: center;
-    color: navy;
+    font-size: 2rem;
 }
-#flex1 {
+
+.phone {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pics {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#pic1 {
+    margin-left: 4%;
+}
+
+.pictures {
+    width: 500px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.coder {
     display: flex;
     justify-content: center;
-    text-align: center;
-    font-family: 'Balsamiq Sans', cursive;
-}
-#phone {
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 1rem;
-    text-align: center;
 }
 
-#card {
-    margin-right: 2rem;
-    
-}
-#card img{
-    height: 300px;
+#coder {
+    width: 200px;
 }
 
-#scooter img{ 
-    height: 300px;
+.paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
+
+#logo{
+    height: 100px;
+    width: auto;
+}
+
+.main {
+    margin-bottom: 2rem;
+
+}
+
 footer {
-    margin-top: 10rem;
-    margin-bottom: 0rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background-color: #c2a4a4;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
-    font-family: 'Balsamiq Sans', cursive;
+    background-color: #f08e8e;
 }
 
-#about {
-    margin: auto 10rem;
-    font-family: 'Balsamiq Sans', cursive;
+.ftr {
+    margin-top: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form div {
+    margin-top: 1%;
 }
 
 #pics {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;  
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#pics img {
+    width: 300px
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ca3d3d;
 }
