@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+
+a {
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+a:link {
+    color: #ffffff;
+}
+a:visited {
+    color: #ffffff;
+}
+a:hover {
+    color: #720e0e;
+}
