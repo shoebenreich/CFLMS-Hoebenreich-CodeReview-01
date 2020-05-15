@@ -10,6 +10,8 @@ body {
     align-items: center;
     background-color: #c2a4a4;
     font-family: 'Balsamiq Sans', cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #head_name {
@@ -27,6 +29,8 @@ body {
     background-color: #fa3131;
     font-size: 24px;
     margin-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .nav ul {
     margin-top: 0;
